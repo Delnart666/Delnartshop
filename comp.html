@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Delnart Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #000000"
+    >
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1" style="color: #ffffff">D-Shop</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 top-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Catalog
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li>
+                  <a class="dropdown-item" href="comp.html">Компьютеры</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="tel.html">Смартфоны</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Dlya pk.html">Для геймеров</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link1"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-cart"
+              >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="main-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/176926071.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">Моноблок Apple iMac 24</a></h4>
+                <p>М1 4.5К 7‑ядер GPU 256GB Green (MJV83UA/A)</p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>60 999₴</small> 59 999₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="001"
+                      data-sb-product-name="Моноблок Apple iMac 24"
+                      data-sb-product-price="59999"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/176926071.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/247918756.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ASUS U500MA-R5300G0060</a></h4>
+                <p>
+                  AMD Ryzen 3 5300G/RAM 8 ГБ/SSD 256 ГБ/AMD Radeon Vega 6
+                  Graphics/Wi-Fi/500W 80+ Bronze
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">13 499₴</div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="002"
+                      data-sb-product-name="ASUS U500MA-R5300G0060"
+                      data-sb-product-price="13499"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/247918756.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/251450137.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ARTLINE Gaming VALHALLAv09</a></h4>
+                <p>
+                  Intel Core i9-12900KF (3.2 - 5.2 ГГц) / RAM 64 ГБ / SSD 2 ТБ +
+                  SSD 1 ТБ / 2 х nVidia GeForce RTX 3090, 24 ГБ / без ОД / LAN /
+                  Wi-Fi / Bluetooth / Windows 11 Professional
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>424 588₴</small> 419 999₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="003"
+                      data-sb-product-name="ARTLINE Gaming VALHALLAv09"
+                      data-sb-product-price="25000"
+                      data-sb-product-quantity="419999"
+                      data-sb-product-img="img/products/251450137.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/251449692.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ARTLINE Overlord RTX P99v34</a></h4>
+                <p>
+                  Intel Core i9-12900KF (3.2 - 5.2 ГГц) / RAM 64 ГБ / SSD 2 ТБ +
+                  SSD 1 ТБ / nVidia GeForce RTX 3090, 24 ГБ
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>298 615₴ </small> 292 999₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="004"
+                      data-sb-product-name="ARTLINE Overlord RTX P99v34"
+                      data-sb-product-price="292999"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/251449692.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/118876549.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">Artline WorkStation W98 v33 (W98v33)</a></h4>
+                <p>
+                  AMD Ryzen Threadripper 3970X (3.7 - 4.5 ГГц) / RAM 128 ГБ / 2
+                  x SSD 1 ТБ / nVidia Quadro RTX 5000, 16 ГБ
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>267 055₴</small> 264 999₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="005"
+                      data-sb-product-name="Artline WorkStation W98 v33 (W98v33)"
+                      data-sb-product-price="264999"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/118876549.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/278128083.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">COBRA Gaming (I124F.32.S5.68XT.9081)</a></h4>
+                <p>
+                  Intel Core i5-12400F (2.5 - 4.4 ГГц) / RAM 32 ГБ / SSD 500 ГБ
+                  / AMD Radeon RX 6800 XT, 16 ГБ / без ОД / LAN / Linux
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>78 499₴</small> 75 999₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="006"
+                      data-sb-product-name="COBRA Gaming (I124F.32.S5.68XT.9081)"
+                      data-sb-product-price="75 999"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/278128083.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/253652590.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">Artline Gaming X35v41</a></h4>
+                <p>
+                  Intel Core i5-12400F (2.5 - 4.4 ГГц) / RAM 16 ГБ / HDD 1 ТБ +
+                  SSD 480 ГБ / nVidia GeForce RTX 3050, 8 ГБ / без ОД / LAN /
+                  без ОС
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>38 499₴</small> 36 499₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="007"
+                      data-sb-product-name="Artline Gaming X35v41"
+                      data-sb-product-price="36499"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/253652590.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/151403324.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">Everest Home 8010 (8010_5215)</a></h4>
+                <p>
+                  Intel Core i3-10100 (3.6 - 4.3 ГГц) / RAM 16 ГБ / HDD 2 ТБ +
+                  SSD 500 ГБ / nVidia GeForce GTX 1650 Super, 4 ГБ / без ОД /
+                  LAN / без ОС
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price"><small>32 999</small> 28 999₴</div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="008"
+                      data-sb-product-name="Everest Home 8010 (8010_5215)"
+                      data-sb-product-price="28999"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/151403324.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/36884000.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">Artline Overlord RTX P99v07</a></h4>
+                <p>
+                  Intel Core i9-10900KF (3.7 - 5.3 ГГц) / RAM 64 ГБ / SSD 2 TБ
+                  (1 ТБ + 1 ТБ) / nVidia GeForce RTX 3090, 24 ГБ / без ОД / LAN
+                  / Wi-Fi / Windows 10 Pro
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>255 062₴</small> 250 062₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="009"
+                      data-sb-product-name="Artline Overlord RTX P99v07"
+                      data-sb-product-price="250062"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/36884000.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/178038834.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ARTLINE Overlord X99 v32w</a></h4>
+                <p>
+                  Intel Core i9-10980XE (3.0 - 4.6 ГГц) / RAM 64 ГБ / SSD 2 ТБ
+                  (2 х 1 ТБ) / nVidia GeForce RTX 3090, 24 ГБ / без ОД / LAN /
+                  Wi-Fi / Windows 10 Pro
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>214 635₴ </small> 213 635₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="010"
+                      data-sb-product-name="ARTLINE Overlord X99 v32w"
+                      data-sb-product-price="213635"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/178038834.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/228671757.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ARTLINE Gaming X55 v35Win</a></h4>
+                <p>
+                  Intel Core i5-10400F (2.9 - 4.3 ГГц) / RAM 32 ГБ / HDD 2 ТБ +
+                  SSD 480 ГБ / nVidia GeForce RTX 3060, 12 ГБ / без ОД / LAN /
+                  Windows 11
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>55 707₴</small> 52 707₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="011"
+                      data-sb-product-name="ARTLINE Gaming X55 v35Win"
+                      data-sb-product-price="52707"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/228671757.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/251450793.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ARTLINE Gaming X71v63</a></h4>
+                <p>
+                  Intel Core i7-9700F (3.0 - 4.7 ГГц) / RAM 16 ГБ / HDD 1 ТБ +
+                  SSD 480 ГБ / nVidia GeForce RTX 3050, 8 ГБ / без ОД / LAN /
+                  без ОС
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>39 000₴</small> 37 999₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="012"
+                      data-sb-product-name="ARTLINE Gaming X71v63"
+                      data-sb-product-price="37999"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/251450793.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/15723792.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">Artline Gaming X63 v10 (X63v10)</a></h4>
+                <p>
+                  AMD Ryzen 5 3600 (3.6 - 4.2 ГГц) / RAM 16 ГБ / HDD 1 ТБ + SSD
+                  240 ГБ / nVidia GeForce GTX 1660, 6 ГБ / без ОД / LAN / без ОС
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>33 334₴</small> 31 334₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="013"
+                      data-sb-product-name="Artline Gaming X63 v10 (X63v10)"
+                      data-sb-product-price="31334"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/15723792.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/226459532.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ARTLINE Gaming X39 v48</a></h4>
+                <p>
+                  Intel Core i5-10400F (2.9 - 4.3 ГГц) / RAM 16 ГБ / SSD 480 ГБ
+                  / nVidia GeForce GTX 1660 Ti, 6 ГБ / без ОД / LAN / без ОС
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>32 554₴</small> 29 554₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="014"
+                      data-sb-product-name="ARTLINE Gaming X39 v48"
+                      data-sb-product-price="29554"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/226459532.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/products/234421840.jpg" alt="" /></a>
+              </div>
+              <div class="product-details">
+                <h4><a href="#">ARTLINE Overlord STRIX v69Winw</a></h4>
+                <p>
+                  Intel Core i9-12900KF (3.2 - 5.2 ГГц) / RAM 64 ГБ / SSD 2 ТБ
+                  (2 x 1 ТБ) / nVidia GeForce RTX 3090, 24 ГБ / без ОД / LAN /
+                  Windows 11 Pro
+                </p>
+                <div
+                  class="product-bottom-details d-flex justify-content-between"
+                >
+                  <div class="product-price">
+                    <small>205 234₴</small> 200 234₴
+                  </div>
+                  <div class="product-links">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-sb-id-or-vendor-code="015"
+                      data-sb-product-name="ARTLINE Overlord STRIX v69Winw"
+                      data-sb-product-price="200234"
+                      data-sb-product-quantity="1"
+                      data-sb-product-img="img/products/234421840.jpg"
+                    >
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <h4>Информация</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Главная</a></li>
+                <li><a href="oshop.html">О магазине</a></li>
+                <li><a href="#">Оплата и доставка</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-6">
+              <h4>Время работы</h4>
+              <ul class="list-unstyled">
+                <a
+                  href="https://www.google.com.ua/maps/place/%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2/@46.4694762,30.7302651,16.12z/data=!4m5!3m4!1s0x40c63181f070d8f9:0x82b6163706074f2d!8m2!3d46.468147!4d30.7375815"
+                  target="_blank"
+                >
+                  <li>
+                    вулиця Новощіпний Ряд, 2, Одеса, Одеська область, 65000
+                  </li></a
+                >
+                <li>пн-вс: 10:00 - 21:00</li>
+                <li>без перерыва</li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-6">
+              <h4>Контакты</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a>555 123-45-67</a>
+                </li>
+                <li>
+                  <a>555 123-45-68</a>
+                </li>
+                <li>
+                  <a>555 123-45-69</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-6">
+              <h4>Мы в сети</h4>
+              <div class="footer-icons">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100021615063231"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/channel/UCTy8zuGD9un8FiLTwYmgrsA"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a href="https://www.instagram.com/_delnart/" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css" />
+
+    <div class="smart-basket__wrapper"></div>
+
+    <script src="./smartbasket/js/smartbasket.min.js"></script>
+
+    <script>
+      $(function () {
+        $(".smart-basket__wrapper").smbasket({
+          productElement: "product-card",
+          buttonAddToBasket: "btn",
+          productPrice: "product__price-number",
+          productSize: "product__size-element",
+
+          productQuantityWrapper: "product__quantity",
+          smartBasketMinArea: "nav-link1",
+          countryCode: "+380",
+          smartBasketCurrency: "₴",
+          smartBasketMinIconPath: "./smartbasket/img/shopping-basket-wight.svg",
+
+          agreement: {
+            isRequired: true,
+            isChecked: true,
+            isLink: "https://artstranger.ru/privacy.html",
+          },
+          nameIsRequired: false,
+        });
+      });
+    </script>
+  </body>
+</html>
